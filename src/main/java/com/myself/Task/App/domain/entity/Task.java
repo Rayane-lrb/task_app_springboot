@@ -10,7 +10,7 @@ import java.util.UUID;
 @Entity
 @Table(name = "tasks")
 public class Task {
-    public Task() {
+    public Task(UUID id, String title, String description, LocalDate dueDate, TaskStatus open, String priority, Instant now, Instant updated) {
     }
 
     public Task(UUID id, String title, String description, LocalDate dueDate, TaskStatus status, TaskPriority priority, Instant created, Instant updated) {
