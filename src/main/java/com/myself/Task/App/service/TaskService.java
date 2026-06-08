@@ -4,5 +4,5 @@ import com.myself.Task.App.domain.CreateTaskRequest;
 import com.myself.Task.App.domain.entity.Task;
 
 public interface TaskService {
-    Task createTask(CreateTaskRequest.createTaskRequest request);
+    Task createTask(CreateTaskRequest request);
 }

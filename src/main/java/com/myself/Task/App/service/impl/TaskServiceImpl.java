@@ -19,7 +19,7 @@ public class TaskServiceImpl implements TaskService {
     }
 
     @Override
-    public Task createTask(CreateTaskRequest.createTaskRequest request) {
+    public Task createTask(CreateTaskRequest request) {
         Instant now = Instant.now();
 
         Task task = new Task(
